@@ -3,12 +3,12 @@
    (kosongkan dengan "" jika mau pakai tampilan default)
    ======================================================= */
 
-window.LOGO_URL = "https://i.ibb.co/Y446WRjk/nabung77-LOGO-APK.jpg";
+window.LOGO_URL = "https://i.ibb.co/wZZ7fb8J/loket88-22.jpg";
 window.BG_URL   = "https://i.ibb.co/Txx3QDGR/background-apk-nabung.jpg";
-window.APP_NAME = "NABUNG77";
+window.APP_NAME = "LOKET88";
 
 /* Link Box Event & Pesan (live dari panel admin Worker) */
-window.INFO_URL = "https://playgame-notif.b2444014.workers.dev/info";
+window.INFO_URL = "https://loket88-notif.hariannews65.workers.dev/info";
 
 
 /* =======================================================
@@ -22,18 +22,12 @@ window.INFO_URL = "https://playgame-notif.b2444014.workers.dev/info";
 
 window.SITES = [
   {
-    name: "NABUNG77",
+    name: "LOKET88",
     category: "SLOT",
-    image: "https://i.ibb.co/Y446WRjk/nabung77-LOGO-APK.jpg",
-    url: "https://cutt.ly/nabung77seobambu",
+    image: "https://i.ibb.co/wZZ7fb8J/loket88-22.jpg",
+    url: "https://cutt.ly/loketaza",
     premium: true
   },
-  {
-    name: "GARASIPOKER",
-    category: "PKV",
-    image: "https://i.ibb.co/gMdz90LD/logo-garasi-poker-di-dalam.jpg",
-    url: "https://cutt.ly/garasipoker-login"
-  }
   // Tambahkan game lain di sini, pisahkan dengan koma ( , )
 ];
 
