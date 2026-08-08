@@ -1,10 +1,8 @@
 name: Build APK
 on: [push, workflow_dispatch]
-
 # izin agar workflow boleh membuat/memperbarui Release
 permissions:
   contents: write
-
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -30,11 +28,11 @@ jobs:
         with:
           name: app-release
           path: app/build/outputs/apk/release/app-release.apk
-
-      # LANGKAH BARU: publish APK ke Release v1.0 (link member tetap sama, otomatis ter-update)
+      # publish APK ke Release v1.0 (link member tetap sama, otomatis ter-update)
       - name: Publish to Release v1.0
         uses: softprops/action-gh-release@v2
         with:
           tag_name: v1.0
           name: LOKET88 APK
           files: app/build/outputs/apk/release/app-release.apk
+          clobber: true
